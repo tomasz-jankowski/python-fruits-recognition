@@ -6,7 +6,7 @@ import numpy as np
 from tabulate import tabulate
 
 # Assign an input argument to the variable
-path = input('Podaj sciezke do obrazu: ')
+path = input('Path to the image: ')
 
 # Level 2 - display information about errors only
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
